@@ -120,6 +120,12 @@ const config = {
       //   theme: lightCodeTheme,
       //   darkTheme: darkCodeTheme,
       // },
+      gtag: {
+        // You can also use your "G-" Measurement ID here.
+        trackingID: 'G-3B3J4L8BRJ',
+        // Optional fields.
+        anonymizeIP: true, // Should IPs be anonymized?
+      },
     }),
 };
 
