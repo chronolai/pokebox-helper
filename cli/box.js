@@ -11,7 +11,7 @@ function pad(num) {
 
 const dexs = require('../src/pokedex');
 Object.keys(dexs).map((key, index) => {
-  const path = `./docs/${key}.md`;
+  const path = `./box/${key}.md`;
   const dex = dexs?.[key] ?? 'national';
 
   const title = key.split('_').map((val, idx) => {
