@@ -17,29 +17,18 @@ function Box(props) {
   )[index];
   const remain = Array.from(Array(BOX_SIZE - box.length)).map(() => "000");
 
-  const width = 68 *6;
-  const wrapperStyle = {
-    width: `${width}px`,
-    textAlign: 'center',
-    margin: '0 auto',
-    padding: '10px',
-    boxSizing: 'content-box',
-    border: '1px solid #d7d7d7',
-    boxShadow: '0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%)',
-  };
+  const width = (68 - 15) * 6;
   const boxStyle = {
     width: `${width}px`,
   };
 
   return (
-    <div>
-      <div style={wrapperStyle}>
-        <h2>{title}</h2>
-        <div style={boxStyle}>
-          {[...box, ...remain].map((id, idx) => {
-            return <Pokemon key={idx} id={id} />;
-          })}
-        </div>
+    <div className="box" style={boxStyle}>
+      <h2>{title}</h2>
+      <div style={boxStyle}>
+        {[...box, ...remain].map((id, idx) => {
+          return <Pokemon key={idx} id={id} />;
+        })}
       </div>
     </div>
   );
