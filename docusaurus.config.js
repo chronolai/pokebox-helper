@@ -48,7 +48,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       colorMode: {
-        disableSwitch: true,
+        // disableSwitch: true,
+        switchConfig: {
+          darkIcon: ' ',
+          lightIcon: ' ',
+        }
       },
       navbar: {
         title: 'PokeBox Helper',
