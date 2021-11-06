@@ -60,6 +60,7 @@ const config = {
           alt: 'PokeBox Logo',
           src: 'img/logo.png',
         },
+        hideOnScroll: true,
         // items: [
         // {
         //   type: 'doc',
