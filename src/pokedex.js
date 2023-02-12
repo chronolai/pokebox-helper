@@ -1,4 +1,4 @@
-const national = Array.from(Array(898).keys()).map(idx => (idx + 1).toString().padStart(3, '0'));
+const national = Array.from(Array(1008).keys()).map(idx => (idx + 1).toString().padStart(3, '0'));
 // gen 1
 const rgby = Array.from(Array(151).keys()).map(idx => (idx + 1).toString().padStart(3, '0'));
 // gen 2
