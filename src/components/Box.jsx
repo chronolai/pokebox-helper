@@ -17,7 +17,7 @@ function Box(props) {
   )[index];
   const remain = Array.from(Array(BOX_SIZE - box.length)).map(() => "000");
 
-  const width = (68 - 15) * 6;
+  const width = (56) * 6;
   const boxStyle = {
     width: `${width}px`,
   };

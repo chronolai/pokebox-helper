@@ -55,10 +55,10 @@ const config = {
     ({
       colorMode: {
         // disableSwitch: true,
-        switchConfig: {
-          darkIcon: ' ',
-          lightIcon: ' ',
-        }
+        // switchConfig: {
+        //   darkIcon: ' ',
+        //   lightIcon: ' ',
+        // }
       },
       navbar: {
         title: 'PokeBox Helper',
